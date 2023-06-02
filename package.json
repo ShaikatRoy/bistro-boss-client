@@ -14,6 +14,7 @@
     "@storybook/addon-actions": "^7.0.14",
     "@storybook/addon-knobs": "^7.0.2",
     "@tanstack/react-query": "^4.29.11",
+    "axios": "^1.4.0",
     "daisyui": "^2.51.6",
     "firebase": "^9.22.1",
     "keen-slider": "^6.8.5",
