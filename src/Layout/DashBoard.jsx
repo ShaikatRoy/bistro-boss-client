@@ -18,13 +18,13 @@ const DashBoard = () => {
         <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">Open drawer</label>
 
       </div>
-      <div className="drawer-side  bg-[#D1A054]">
+      <div className="drawer-side ">
         <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-        <ul className="menu p-4 w-80  bg-[#D1A054] text-base-content">
+        <ul className="menu p-4 w-80 bg-[#D1A054] text-base-content">
           {
             isAdmin ? <>
               <li><NavLink to="/dashboard/home"><FaHome></FaHome> Admin Home </NavLink></li>
-              <li><NavLink to="/dashboard/reservations"><FaUtensils></FaUtensils> Add Items</NavLink></li>
+              <li><NavLink to="/dashboard/addItem"><FaUtensils></FaUtensils> Add an Items</NavLink></li>
               <li><NavLink to="/dashboard/history"><FaWallet></FaWallet> Manage Items</NavLink></li>
               <li><NavLink to="/dashboard/history"><FaBook></FaBook> Manage Bookings</NavLink></li>
               <li><NavLink to="/dashboard/allUsers"><FaUsers></FaUsers> All Users </NavLink></li>
